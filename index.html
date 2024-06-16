@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="pkmtypes.css">
+</head>
+<body onload="show()">
+    <nav>
+        <a href="index.html"><h1>Pokedex</h1></a><input type="text" id="search" onload="activateSearch()" placeholder="Nach Pokemon suchen">
+    </nav>
+    <div id="card_container"></div>
+    <div id="button_container">
+        <button id="show_more_button" onclick="showMore()">Mehr anzeigen</button>
+    </div>
+    <div id="detail_container" class="d-none"></div>
+    <div id="loading_screen" style="display: none;">
+        <img src="img/4xjS.gif" alt="">
+        <span>Es wird geladen...</span>
+    </div>
+    <script src="search.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

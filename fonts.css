@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Pokemon-Names";
+    src: url("font/Pokemon\ GB.ttf");
+    }
+
+
+    @font-face {
+        font-family: "Pokemon-headline";
+        src: url("font/Pocket\ Monk.otf")
+    }
